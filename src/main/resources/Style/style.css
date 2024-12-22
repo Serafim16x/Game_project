@@ -1,0 +1,32 @@
+.custom-button {
+    -fx-background-color:
+            linear-gradient(#f2f2f2, #d6d6d6),
+            linear-gradient(#e2e2e2, #b6b6b6),
+            linear-gradient(#ffffff, #e6e6e6);
+    -fx-background-radius: 8, 7, 6;
+    -fx-background-insets: 0, 1, 2;
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20 10 20;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0.0, 0, 1);
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+    -fx-cursor: hand;
+    -fx-min-width: 120px;
+}
+
+.custom-button:hover {
+    -fx-background-color:
+            linear-gradient(#d6d6d6, #f2f2f2),
+            linear-gradient(#b6b6b6, #e2e2e2),
+            linear-gradient(#e6e6e6, #ffffff);
+    -fx-background-insets: 0, 1, 2;
+}
+
+.custom-button:pressed {
+    -fx-background-color:
+            linear-gradient(#e2e2e2, #b6b6b6),
+            linear-gradient(#d6d6d6, #f2f2f2),
+            linear-gradient(#e6e6e6, #ffffff);
+    -fx-background-insets: 0, 1, 2;
+}
